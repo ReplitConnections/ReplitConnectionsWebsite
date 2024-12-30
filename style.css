@@ -1,0 +1,37 @@
+body {
+  background-color: #0E1525;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #0E1525;
+  border-bottom: 3px #ec3e02 solid;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.header .heading {
+  font-weight: 1000;
+font-family: monospace;
+  color: #EC5E02;
+  font-size: 38px;
+  margin: 0;
+  padding: 10px;
+}
+
+.header .heading .connections {
+  color: #ec2e02;
+}
+
+.header .subheader {
+  color: #ec4e02; 
+  font-family: sans-serif; 
+padding: 10px;  
+  margin: 0;
+  margin-bottom: 14px;
+  font-weight: bolder;
+}
