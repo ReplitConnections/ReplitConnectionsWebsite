@@ -1,13 +1,7 @@
 # Replit Connections
+**Where users connect**
 
-This is a website built for Replit Connections. This website is powered by [Fumadocs](https://github.com/fuma-nama/fumadocs).
+Also, I'm thinking about getting this a domain, if anyone wants to make a suggestion, use the main ReplitConnections discussion!
 
-### Run the development server
 
-```bash
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-**Where users of Replit can connect.**
+This is a website built for Replit Connections. The platform was generated using the [Fumadocs framework](https://github.com/fuma-nama/fumadocs).
