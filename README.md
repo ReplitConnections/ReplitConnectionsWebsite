@@ -1,6 +1,6 @@
 # Replit Connections
 
-This is a website built for Replit Connections. The platform was generated using the [Fumadocs framework](https://github.com/fuma-nama/fumadocs).
+This is a website built for Replit Connections. This website is powered by [Fumadocs](https://github.com/fuma-nama/fumadocs).
 
 ### Run the development server
 
