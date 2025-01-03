@@ -70,6 +70,6 @@ export async function generateMetadata(props: {
       openGraph: {
         url: `/${page.slugs.join("/")}`,
       },
-    })
+    }),
   );
 }

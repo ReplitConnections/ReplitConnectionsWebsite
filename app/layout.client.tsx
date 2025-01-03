@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useParams } from 'next/navigation';
-import { type ReactNode } from 'react';
-import { cn } from '@/lib/cn';
+import { useParams } from "next/navigation";
+import { type ReactNode } from "react";
+import { cn } from "@/lib/cn";
 
 export function Body({
   children,
@@ -12,7 +12,7 @@ export function Body({
   const mode = useMode();
 
   return (
-    <body className={cn(mode, 'relative flex min-h-screen flex-col')}>
+    <body className={cn(mode, "relative flex min-h-screen flex-col")}>
       {children}
     </body>
   );
