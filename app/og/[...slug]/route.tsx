@@ -6,8 +6,8 @@ export const GET = metadataImage.createAPI((page) => {
     title: page.data.title,
     description: page.data.description,
     site: 'Replit Connections',
-    primaryColor: '#F26206',
-    primaryTextColor: '#F26206'
+    primaryColor: '#F26207',
+    primaryTextColor: '#F26207'
   });
 });
 
