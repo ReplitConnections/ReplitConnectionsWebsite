@@ -5,6 +5,7 @@ icon: Book
 ---
 
 import { ImageZoom } from "fumadocs-ui/components/image-zoom";
+import { UsersIcon, HomeIcon } from "lucide-react";
 import BannerImage from "@/public/banner.png";
 
 <ImageZoom
@@ -19,3 +20,20 @@ I am [MilesWK](https://github.com/MilesWK), the creator of ReplitConnections. Re
 This website serves as a repository for active users, projects, and resources related to Replit. I found it important to create a centralized space for Replit enthusiasts to collaborate and share ideas.
 
 If you find any errors or have suggestions, feel free to open an issue or make a pull request.
+
+<Cards>
+  <Card
+    href="/users"
+    title="Users"
+    icon={<UsersIcon />}
+  >
+    Learn more about users who have reached out.
+  </Card>
+  <Card
+    href="/communities"
+    title="Replit Communities"
+    icon={<HomeIcon />}
+  >
+    Explore official ReplitConnections communities, forum channels, and dedicated spaces where you can connect with the Replit community.
+  </Card>
+</Cards>
