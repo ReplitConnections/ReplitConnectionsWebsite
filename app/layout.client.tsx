@@ -1,7 +1,7 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { type ReactNode, useId } from 'react';
+import { type ReactNode } from 'react';
 import { cn } from '@/lib/cn';
 
 export function Body({
