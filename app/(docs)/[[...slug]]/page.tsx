@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import defaultMdxComponents from "fumadocs-ui/mdx";
 import { createMetadata } from "@/lib/metadata";
 import { metadataImage } from "@/lib/metadata-image";
+import { NotReplit } from "@/components/not-replit";
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -26,6 +27,11 @@ export default async function Page(props: {
       tableOfContent={{
         style: "clerk",
         single: false,
+        header: (
+          <div className="flex flex-col gap-6 mb-6">
+            <NotReplit />
+          </div>
+        ),
       }}
       editOnGithub={{
         owner: "ReplitConnections",
