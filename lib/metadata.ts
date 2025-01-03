@@ -13,11 +13,10 @@ export function createMetadata(override: Metadata): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-    //   todo: add proepr ref
+      // todo: add proper handle
       creator: "@MilesWK",
       title: override.title ?? undefined,
       description: override.description ?? undefined,
-    //   todo: add banner
       images: "/banner.png",
       ...override.twitter,
     },

@@ -15,7 +15,7 @@ export default {
     createPreset({
       addGlobalColors: true,
       preset: {
-        ...presets.black,
+        ...presets.vitepress,
         // light: {
         //   ...presets.vitepress.light,
         // },

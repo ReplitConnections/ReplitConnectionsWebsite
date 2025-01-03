@@ -9,6 +9,8 @@ import { notFound } from "next/navigation";
 import defaultMdxComponents from "fumadocs-ui/mdx";
 import { createMetadata } from "@/lib/metadata";
 import { metadataImage } from "@/lib/metadata-image";
+import { NotReplit } from "@/components/not-replit";
+import { Card, Cards } from 'fumadocs-ui/components/card';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -26,6 +28,11 @@ export default async function Page(props: {
       tableOfContent={{
         style: "clerk",
         single: false,
+        header: (
+          <div className="flex flex-col gap-6 mb-6">
+            <NotReplit />
+          </div>
+        ),
       }}
       editOnGithub={{
         owner: "ReplitConnections",
@@ -37,7 +44,7 @@ export default async function Page(props: {
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX components={{ ...defaultMdxComponents }} />
+        <MDX components={{ ...defaultMdxComponents, Card, Cards }} />
       </DocsBody>
     </DocsPage>
   );
@@ -64,6 +71,6 @@ export async function generateMetadata(props: {
       openGraph: {
         url: `/${page.slugs.join("/")}`,
       },
-    })
+    }),
   );
 }
