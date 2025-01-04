@@ -1,0 +1,12 @@
+{
+  "title": "Replit Connections",
+  "icon": "Book",
+  "description": "Reconnecting a fallen community.",
+  "root": true,
+  "pages": [
+    "index",
+    "users",
+    "communities",
+    "projects"
+  ]
+}
