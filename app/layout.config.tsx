@@ -9,7 +9,7 @@ export const logo = (
       alt="Replit"
       src={Logo}
       sizes="100px"
-      className="size-6 [header_&]:size-7 rounded-full"
+      className="size-6 [header_&]:size-7 rounded-full hover:animate-spin"
       aria-label="Replit"
     />
   </>

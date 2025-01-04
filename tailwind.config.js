@@ -14,18 +14,7 @@ export default {
   presets: [
     createPreset({
       addGlobalColors: true,
-      preset: {
-        ...presets.vitepress,
-        // light: {
-        //   ...presets.vitepress.light,
-        // },
-        // dark: {
-        //   ...presets.vitepress.dark,
-        // },
-        // css: {
-        //   ...presets.vitepress.css,
-        // },
-      },
+      cssPrefix: '',
     }),
   ],
   plugins: [require("tailwindcss-animate")],
